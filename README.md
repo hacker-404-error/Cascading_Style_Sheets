@@ -53,16 +53,19 @@ Multiple CSS declarations are separated with semicolons, and declaration blocks 
 
 5-Attribute selectors (select elements based on an attribute or attribute value)
 ```
+
 ## SIMPLE SELECTOR
 <div align="center">
     <img src="https://github.com/hacker-404-error/Cascading_Style_Sheets/blob/main/Image/CSS%20Simple%20SELECTORS.PNG" alt="Syntax">
 </div>
 <br>
+
 ## COMBINATOR SELECTOR
 <div align="center">
     <img src="https://github.com/hacker-404-error/Cascading_Style_Sheets/blob/main/Image/CSS%20Combinators%20SELECTOR.PNG" alt="Syntax">
 </div>
 <br>
+
 ```
 Descendant Selector (Space)
 The descendant selector matches all elements that are descendants of a specified element.
