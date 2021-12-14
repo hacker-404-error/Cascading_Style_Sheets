@@ -12,3 +12,30 @@
 | [CSS Pseudo-class   ]() | [ CSS Pseudo-element]() | [ CSS Opacity       ]() | [ CSS Navigation Bar]() | [ CSS Dropdowns     ]() |
 | [CSS Image Gallery  ]() | [ CSS Image Sprites ]() | [ CSS Attr Selectors]() | [ CSS Forms         ]() | [ CSS Counters      ]() |
 | [CSS Website Layout ]() | [ CSS Units         ]() | [ CSS Specificity   ]() | [ CSS !important    ]() | [ CSS Math Functions]() |
+
+
+# CSS INTRODUCTION
+### What is CSS?
+```
+1-CSS stands for Cascading Style Sheets.
+2-CSS is the language we use to style a Web page.
+3-CSS describes how HTML elements are to be displayed on screen, paper, or in other media.
+4-CSS saves a lot of work. It can control the layout of multiple web pages all at once.
+5-External stylesheets are stored in CSS files.
+```
+
+## CSS Syntax
+<br>
+<div align="center">
+    <img src="https://www.w3schools.com/css/img_selector.gif" alt="Syntax">
+</div>
+<br>
+```
+The selector points to the HTML element you want to style.
+
+The declaration block contains one or more declarations separated by semicolons.
+
+Each declaration includes a CSS property name and a value, separated by a colon.
+
+Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces.
+```
