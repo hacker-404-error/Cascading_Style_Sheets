@@ -30,6 +30,7 @@
     <img src="https://www.w3schools.com/css/img_selector.gif" alt="Syntax">
 </div>
 <br>
+
 ```
 The selector points to the HTML element you want to style.
 
