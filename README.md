@@ -3,7 +3,7 @@
 
 |                         |                         |                         |                         |                         |
 | ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- |
-| [CSS Tutorial       ]() | [CSS Simplified PPT ]() | [ CSS Introduction  ](https://github.com/hacker-404-error/Cascading_Style_Sheets#css-introduction) | [ CSS Syntax        ]() | [ CSS Selectors     ]() |
+| [CSS Tutorial       ]() | [CSS Simplified PPT ]() | [ CSS Introduction  ](https://github.com/hacker-404-error/Cascading_Style_Sheets#css-introduction) | [ CSS Syntax        ](https://github.com/hacker-404-error/Cascading_Style_Sheets#css-syntax) | [ CSS Selectors     ](https://github.com/hacker-404-error/Cascading_Style_Sheets#css-selectors) |
 | [CSS How To         ]() | [ CSS Comments      ]() | [ CSS Colors        ]() | [ CSS Backgrounds   ]() | [ CSS Borders       ]() |
 | [CSS Margins        ]() | [ CSS Padding       ]() | [ CSS Height/Width  ]() | [ CSS Box Model     ]() | [ CSS Outline       ]() |
 | [CSS Text           ]() | [ CSS Fonts         ]() | [ CSS Icons         ]() | [ CSS Links         ]() | [ CSS Lists         ]() |
@@ -24,7 +24,7 @@
 5-External stylesheets are stored in CSS files.
 ```
 
-## CSS Syntax
+# CSS Syntax
 <br>
 <div align="center">
     <img src="https://www.w3schools.com/css/img_selector.gif" alt="Syntax">
@@ -41,7 +41,7 @@ Each declaration includes a CSS property name and a value, separated by a colon.
 Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces.
 ```
 
-## CSS SELECTORS
+# CSS SELECTORS
 ```
 1-Simple selectors (select elements based on name, id, class)​
 
@@ -52,4 +52,27 @@ Multiple CSS declarations are separated with semicolons, and declaration blocks 
 4-Pseudo-elements selectors (select and style a part of an element)​
 
 5-Attribute selectors (select elements based on an attribute or attribute value)
+```
+## SIMPLE SELECTOR
+<div align="center">
+    <img src="https://github.com/hacker-404-error/Cascading_Style_Sheets/blob/main/Image/CSS%20Simple%20SELECTORS.PNG" alt="Syntax">
+</div>
+<br>
+## COMBINATOR SELECTOR
+<div align="center">
+    <img src="https://github.com/hacker-404-error/Cascading_Style_Sheets/blob/main/Image/CSS%20Combinators%20SELECTOR.PNG" alt="Syntax">
+</div>
+<br>
+```
+Descendant Selector (Space)
+The descendant selector matches all elements that are descendants of a specified element.
+
+Child Selector (>)
+The child selector selects all elements that are the children of a specified element.
+
+Adjacent Sibling Selector (+)
+The adjacent sibling selector is used to select an element that is directly after another specific element.
+
+General Sibling Selector (~)
+The general sibling selector selects all elements that are next siblings of a specified element.
 ```
