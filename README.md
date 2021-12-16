@@ -300,7 +300,7 @@ hsla(hue, saturation, lightness, alpha)
 #rrggbb
 
 1-Where rr (red), gg (green) and bb (blue) are hexadecimal values between 00 and ff (same as decimal 0-255).
-2-For example, #ff0000 is displayed as red, because red is set to its highest value (ff) and the others are set to the lowest value (00).
+2-#ff0000 is displayed as red, because red is set to its highest value (ff) and the others are set to the lowest value (00).
 3-To display black, set all values to 00, like this: #000000.
 4-To display white, set all values to ff, like this: #ffffff.  
 ```
