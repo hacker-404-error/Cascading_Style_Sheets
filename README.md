@@ -249,13 +249,13 @@ Inline styles are defined within the "style" attribute of the relevant element:
 
 ### 1-[RGB Values](https://github.com/hacker-404-error/Cascading_Style_Sheets#rgb-and-rgba-values)
 
-### 2-[HEX Values]()
+### 2-[HEX Values](https://github.com/hacker-404-error/Cascading_Style_Sheets#hex-value)
 
-### 3-[HSL Values]()
+### 3-[HSL Values](https://github.com/hacker-404-error/Cascading_Style_Sheets#hsl-and-hsla-values)
 
 ### 4-[RGBA Values](https://github.com/hacker-404-error/Cascading_Style_Sheets#rgb-and-rgba-values)
 
-### 5-[HSLA Values.]()
+### 5-[HSLA Values.](https://github.com/hacker-404-error/Cascading_Style_Sheets#hsl-and-hsla-values)
 
 <br>
 <hr>
