@@ -139,3 +139,82 @@ A CSS pseudo-element is used to style specified parts of an element.
 | ::selection    | p::selection    | Selects the portion of an element that is selected by a user |
 
 ```
+# How To Add CSS
+
+### Three Ways to Insert CSS
+
+There are three ways of inserting a style sheet:
+
+#### [Internal CSS]()
+#### [External CSS]()
+#### [Inline CSS]()
+
+### Internal CSS
+```
+An internal style sheet may be used if one single HTML page has a unique style.
+The internal style is defined inside the <style> element, inside the head section.
+
+For eg-
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: linen;
+}
+
+h1 {
+  color: maroon;
+  margin-left: 40px;
+}
+</style>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+```
+### External CSS
+```
+1-With an external style sheet, you can change the look of an entire website by changing just one file!
+2-Each HTML page must include a reference to the external style sheet file inside the <link> element, 
+  inside the head section.
+
+For Eg-
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+
+```
+
+### Inline CSS
+```
+An inline style may be used to apply a unique style for a single element.
+To use inline styles, add the style attribute to the relevant element. The style attribute can contain any CSS property.
+
+ For Eg-
+
+Inline styles are defined within the "style" attribute of the relevant element:
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="color:blue;text-align:center;">This is a heading</h1>
+<p style="color:red;">This is a paragraph.</p>
+
+</body>
+</html>
+
+```
