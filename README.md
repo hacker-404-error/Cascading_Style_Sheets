@@ -4,7 +4,7 @@
 |                         |                         |                         |                         |                         |
 | ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- |
 | [CSS Tutorial       ]() | [CSS Simplified PPT ]() | [ CSS Introduction  ](https://github.com/hacker-404-error/Cascading_Style_Sheets#css-introduction) | [ CSS Syntax        ](https://github.com/hacker-404-error/Cascading_Style_Sheets#css-syntax) | [ CSS Selectors     ](https://github.com/hacker-404-error/Cascading_Style_Sheets#css-selectors) |
-| [CSS How To         ](https://github.com/hacker-404-error/Cascading_Style_Sheets#how-to-add-css) | [ CSS Comments      ]() | [ CSS Colors        ]() | [ CSS Backgrounds   ]() | [ CSS Borders       ]() |
+| [CSS How To         ](https://github.com/hacker-404-error/Cascading_Style_Sheets#how-to-add-css) | [ CSS Colors      ]() | [ CSS Colors        ]() | [ CSS Backgrounds   ]() | [ CSS Borders       ]() |
 | [CSS Margins        ]() | [ CSS Padding       ]() | [ CSS Height/Width  ]() | [ CSS Box Model     ]() | [ CSS Outline       ]() |
 | [CSS Text           ]() | [ CSS Fonts         ]() | [ CSS Icons         ]() | [ CSS Links         ]() | [ CSS Lists         ]() |
 | [CSS Tables         ]() | [ CSS Display       ]() | [ CSS Max-width     ]() | [ CSS Position      ]() | [ CSS Z-index       ]() |
@@ -243,5 +243,42 @@ Inline styles are defined within the "style" attribute of the relevant element:
     <img src="https://github.com/hacker-404-error/Cascading_Style_Sheets/blob/main/Image/cascading%20order.PNG" alt="Syntax">
 </div>
 <br>
+
+## CSS Colors
+### Colors are specified using predefined color names, or 
+
+### 1-RGB Values
+
+### 2-HEX Values
+
+### 3-HSL Values
+
+### 4-RGBA Values
+
+### 5-HSLA Values.
+
+<br>
+<hr>
+
+### RGB And RGBA Values
+```
+rgb(red, green, blue)
+
+  1-Each parameter (red, green, and blue) defines the intensity of the color between 0 and 255.
+
+  2-For example, rgb(255, 0, 0) is displayed as red, because red is set to its highest value (255) and the others are set to 0.
+
+  3-To display black, set all color parameters to 0, like this: rgb(0, 0, 0).
+
+  To display white, set all color parameters to 255, like this: rgb(255, 255, 255).
+
+rgba(red, green, blue, alpha)
+
+  1-RGBA color values are an extension of RGB color values with an alpha channel - which specifies the opacity for a color.
+
+  2-An RGBA color value is specified with:
+
+  3-The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (not transparent at all):
+```
 
 
