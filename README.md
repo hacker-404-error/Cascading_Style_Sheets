@@ -4,7 +4,7 @@
 |                         |                         |                         |                         |                         |
 | ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- |
 | [CSS Tutorial       ]() | [CSS Simplified PPT ]() | [ CSS Introduction  ](https://github.com/hacker-404-error/Cascading_Style_Sheets#css-introduction) | [ CSS Syntax        ](https://github.com/hacker-404-error/Cascading_Style_Sheets#css-syntax) | [ CSS Selectors     ](https://github.com/hacker-404-error/Cascading_Style_Sheets#css-selectors) |
-| [CSS How To         ]() | [ CSS Comments      ]() | [ CSS Colors        ]() | [ CSS Backgrounds   ]() | [ CSS Borders       ]() |
+| [CSS How To         ](https://github.com/hacker-404-error/Cascading_Style_Sheets#how-to-add-css) | [ CSS Comments      ]() | [ CSS Colors        ]() | [ CSS Backgrounds   ]() | [ CSS Borders       ]() |
 | [CSS Margins        ]() | [ CSS Padding       ]() | [ CSS Height/Width  ]() | [ CSS Box Model     ]() | [ CSS Outline       ]() |
 | [CSS Text           ]() | [ CSS Fonts         ]() | [ CSS Icons         ]() | [ CSS Links         ]() | [ CSS Lists         ]() |
 | [CSS Tables         ]() | [ CSS Display       ]() | [ CSS Max-width     ]() | [ CSS Position      ]() | [ CSS Z-index       ]() |
@@ -44,10 +44,10 @@ Multiple CSS declarations are separated with semicolons, and declaration blocks 
 # CSS SELECTORS
 | No. | Types                         | Info                                                            |
 | --- | ----------------------------- | ----------------------------------------------------------------|
-| 1-  | [Simple selectors         ]() | (select elements based on name, id, class)​                      |
-| 2-  | [Combinator selectors     ]() | (select elements based on a specific relationship between them)​ |
-| 3-  | [Pseudo-class selectors   ]() | (select elements based on a certain state)​                      |
-| 4-  | [Pseudo-elements selectors]() | (select and style a part of an element)​                         |
+| 1-  | [Simple selectors         ](https://github.com/hacker-404-error/Cascading_Style_Sheets#simple-selector) | (select elements based on name, id, class)​                      |
+| 2-  | [Combinator selectors     ](https://github.com/hacker-404-error/Cascading_Style_Sheets#combinator-selector) | (select elements based on a specific relationship between them)​ |
+| 3-  | [Pseudo-class selectors   ](https://github.com/hacker-404-error/Cascading_Style_Sheets#pseudo-class-selector) | (select elements based on a certain state)​                      |
+| 4-  | [Pseudo-elements selectors](https://github.com/hacker-404-error/Cascading_Style_Sheets#pseudo-elements-selector) | (select and style a part of an element)​                         |
 | 5-  | [Attribute selectors      ]() | (select elements based on an attribute or attribute value)      |
 
 ## SIMPLE SELECTOR
@@ -145,9 +145,9 @@ A CSS pseudo-element is used to style specified parts of an element.
 
 There are three ways of inserting a style sheet:
 
-#### [Internal CSS]()
-#### [External CSS]()
-#### [Inline CSS]()
+#### [Internal CSS](https://github.com/hacker-404-error/Cascading_Style_Sheets#internal-css-1)
+#### [External CSS](https://github.com/hacker-404-error/Cascading_Style_Sheets#external-css-1)
+#### [Inline CSS](https://github.com/hacker-404-error/Cascading_Style_Sheets#inline-css-1)
 
 ### Internal CSS
 ```
