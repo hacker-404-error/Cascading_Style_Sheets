@@ -236,3 +236,12 @@ Inline styles are defined within the "style" attribute of the relevant element:
 </html>
 
 ```
+
+
+## Cascading Order
+<div align="center">
+    <img src="https://github.com/hacker-404-error/Cascading_Style_Sheets/blob/main/Image/cascading%20order.PNG" alt="Syntax">
+</div>
+<br>
+
+
