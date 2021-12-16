@@ -4,7 +4,7 @@
 |                         |                         |                         |                         |                         |
 | ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- |
 | [CSS Tutorial       ]() | [CSS Simplified PPT ]() | [ CSS Introduction  ](https://github.com/hacker-404-error/Cascading_Style_Sheets#css-introduction) | [ CSS Syntax        ](https://github.com/hacker-404-error/Cascading_Style_Sheets#css-syntax) | [ CSS Selectors     ](https://github.com/hacker-404-error/Cascading_Style_Sheets#css-selectors) |
-| [CSS How To         ](https://github.com/hacker-404-error/Cascading_Style_Sheets#how-to-add-css) | [ CSS Colors      ](https://github.com/hacker-404-error/Cascading_Style_Sheets#css-colors) | [ CSS Colors        ]() | [ CSS Backgrounds   ]() | [ CSS Borders       ]() |
+| [CSS How To         ](https://github.com/hacker-404-error/Cascading_Style_Sheets#how-to-add-css) | [ CSS Colors      ](https://github.com/hacker-404-error/Cascading_Style_Sheets#css-colors) | [ CSS Box Model        ]() | [ CSS Backgrounds   ]() | [ CSS Borders       ]() |
 | [CSS Margins        ]() | [ CSS Padding       ]() | [ CSS Height/Width  ]() | [ CSS Box Model     ]() | [ CSS Outline       ]() |
 | [CSS Text           ]() | [ CSS Fonts         ]() | [ CSS Icons         ]() | [ CSS Links         ]() | [ CSS Lists         ]() |
 | [CSS Tables         ]() | [ CSS Display       ]() | [ CSS Max-width     ]() | [ CSS Position      ]() | [ CSS Z-index       ]() |
