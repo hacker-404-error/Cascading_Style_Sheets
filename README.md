@@ -4,7 +4,7 @@
 |                         |                         |                         |                         |                         |
 | ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- |
 | [CSS Tutorial       ]() | [CSS Simplified PPT ]() | [ CSS Introduction  ](https://github.com/hacker-404-error/Cascading_Style_Sheets#css-introduction) | [ CSS Syntax        ](https://github.com/hacker-404-error/Cascading_Style_Sheets#css-syntax) | [ CSS Selectors     ](https://github.com/hacker-404-error/Cascading_Style_Sheets#css-selectors) |
-| [CSS How To         ](https://github.com/hacker-404-error/Cascading_Style_Sheets#how-to-add-css) | [ CSS Colors      ]() | [ CSS Colors        ]() | [ CSS Backgrounds   ]() | [ CSS Borders       ]() |
+| [CSS How To         ](https://github.com/hacker-404-error/Cascading_Style_Sheets#how-to-add-css) | [ CSS Colors      ](https://github.com/hacker-404-error/Cascading_Style_Sheets#css-colors) | [ CSS Colors        ]() | [ CSS Backgrounds   ]() | [ CSS Borders       ]() |
 | [CSS Margins        ]() | [ CSS Padding       ]() | [ CSS Height/Width  ]() | [ CSS Box Model     ]() | [ CSS Outline       ]() |
 | [CSS Text           ]() | [ CSS Fonts         ]() | [ CSS Icons         ]() | [ CSS Links         ]() | [ CSS Lists         ]() |
 | [CSS Tables         ]() | [ CSS Display       ]() | [ CSS Max-width     ]() | [ CSS Position      ]() | [ CSS Z-index       ]() |
@@ -247,15 +247,15 @@ Inline styles are defined within the "style" attribute of the relevant element:
 ## CSS Colors
 ### Colors are specified using predefined color names, or 
 
-### 1-RGB Values
+### 1-[RGB Values](https://github.com/hacker-404-error/Cascading_Style_Sheets#rgb-and-rgba-values)
 
-### 2-HEX Values
+### 2-[HEX Values]()
 
-### 3-HSL Values
+### 3-[HSL Values]()
 
-### 4-RGBA Values
+### 4-[RGBA Values](https://github.com/hacker-404-error/Cascading_Style_Sheets#rgb-and-rgba-values)
 
-### 5-HSLA Values.
+### 5-[HSLA Values.]()
 
 <br>
 <hr>
@@ -281,4 +281,26 @@ rgba(red, green, blue, alpha)
   3-The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (not transparent at all):
 ```
 
+### HSL And HSLA Values
+```
+hsl(hue, saturation, lightness)
 
+1-Hue is a degree on the color wheel from 0 to 360. 0 is red, 120 is green, and 240 is blue.
+2-Saturation is a percentage value, 0% means a shade of gray, and 100% is the full color.
+3-Lightness is also a percentage, 0% is black, 50% is neither light or dark, 100% is white
+
+hsla(hue, saturation, lightness, alpha)
+
+1-HSLA color values are an extension of HSL color values with an alpha channel - which specifies the opacity for a color.
+2-The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (not transparent at all)
+```
+
+### HEX Value
+```
+#rrggbb
+
+1-Where rr (red), gg (green) and bb (blue) are hexadecimal values between 00 and ff (same as decimal 0-255).
+2-For example, #ff0000 is displayed as red, because red is set to its highest value (ff) and the others are set to the lowest value (00).
+3-To display black, set all values to 00, like this: #000000.
+4-To display white, set all values to ff, like this: #ffffff.  
+```
