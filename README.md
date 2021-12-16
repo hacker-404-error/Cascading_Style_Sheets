@@ -15,7 +15,7 @@
 
 
 # CSS INTRODUCTION
-### What is CSS?
+## What is CSS?
 ```
 1-CSS stands for Cascading Style Sheets.
 2-CSS is the language we use to style a Web page.
@@ -42,17 +42,17 @@ Multiple CSS declarations are separated with semicolons, and declaration blocks 
 ```
 
 # CSS SELECTORS
-```
-1-Simple selectors (select elements based on name, id, class)​
 
-2-Combinator selectors (select elements based on a specific relationship between them)​
+### 1-Simple selectors (select elements based on name, id, class)​
 
-3-Pseudo-class selectors (select elements based on a certain state)​
+### 2-Combinator selectors (select elements based on a specific relationship between them)​
 
-4-Pseudo-elements selectors (select and style a part of an element)​
+### 3-Pseudo-class selectors (select elements based on a certain state)​
+ 
+### 4-Pseudo-elements selectors (select and style a part of an element)​
 
-5-Attribute selectors (select elements based on an attribute or attribute value)
-```
+### 5-Attribute selectors (select elements based on an attribute or attribute value)
+
 
 ## SIMPLE SELECTOR
 <div align="center">
@@ -124,4 +124,22 @@ Style an element when it gets focus
 | :target              | #news:target          | Selects the current active #news element (clicked on a URL containing that anchor name)        |
 | :valid               | input:valid           | Selects all <input> elements with a valid value                                                |
 | :visited             | a:visited             | Selects all visited links                                                                      |
+```
+
+## Pseudo-Elements Selector
+```
+A CSS pseudo-element is used to style specified parts of an element.
+
+1-Style the first letter, or line, of an element.
+2-Insert content before, or after, the content of an element.
+
+| Selector       | Example         | Example description                                          |
+| -------------- | --------------- | ------------------------------------------------------------ |
+| ::after        | p::after        | Insert something after the content of each <p> element       |
+| ::before       | p::before       | Insert something before the content of each <p> element      |
+| ::first-letter | p::first-letter | Selects the first letter of each <p> element                 |
+| ::first-line   | p::first-line   | Selects the first line of each <p> element                   |
+| ::marker       | ::marker        | Selects the markers of list items                            |
+| ::selection    | p::selection    | Selects the portion of an element that is selected by a user |
+
 ```
