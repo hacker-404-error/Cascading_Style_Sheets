@@ -139,6 +139,24 @@ A CSS pseudo-element is used to style specified parts of an element.
 | ::selection    | p::selection    | Selects the portion of an element that is selected by a user |
 
 ```
+
+
+## Attribute Selectors
+```
+It is possible to style HTML elements that have specific attributes or attribute values.
+The [attribute] selector is used to select elements with a specified attribute
+
+| Selector           | Example              | Example description                                                                     |
+| ------------------ | -------------------- | --------------------------------------------------------------------------------------- |
+| [attribute]        | [target]             | Selects all elements with a target attribute                                            |
+| [attribute=value]  | [target=_blank]      | Selects all elements with target="_blank"                                               |
+| [attribute~=value] | [title~=flower]      | Selects all elements with a title attribute containing the word "flower"                |
+| [attribute=value]  | [lang=en]            | Selects all elements with a lang attribute value starting with "en"                     |
+| [attribute^=value] | a[href^="https"]     | Selects every <a> element whose href attribute value begins with "https"                |
+| [attribute$=value] | a[href$=".pdf"]      | Selects every <a> element whose href attribute value ends with ".pdf"                   |
+| [attribute*=value] | a[href*="w3schools"] | Selects every <a> element whose href attribute value contains the substring "w3schools" |
+```    
+    
 # How To Add CSS
 
 ### Three Ways to Insert CSS
