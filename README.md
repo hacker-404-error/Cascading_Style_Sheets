@@ -48,7 +48,7 @@ Multiple CSS declarations are separated with semicolons, and declaration blocks 
 | 2-  | [Combinator selectors     ](https://github.com/hacker-404-error/Cascading_Style_Sheets#combinator-selector) | (select elements based on a specific relationship between them)​ |
 | 3-  | [Pseudo-class selectors   ](https://github.com/hacker-404-error/Cascading_Style_Sheets#pseudo-class-selector) | (select elements based on a certain state)​                      |
 | 4-  | [Pseudo-elements selectors](https://github.com/hacker-404-error/Cascading_Style_Sheets#pseudo-elements-selector) | (select and style a part of an element)​                         |
-| 5-  | [Attribute selectors      ]() | (select elements based on an attribute or attribute value)      |
+| 5-  | [Attribute selectors      ](https://github.com/hacker-404-error/Cascading_Style_Sheets#attribute-selectors) | (select elements based on an attribute or attribute value)      |
 
 ## SIMPLE SELECTOR
 <div align="center">
